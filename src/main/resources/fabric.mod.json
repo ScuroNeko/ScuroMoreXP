@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "morexp",
+	"version": "${version}",
+	"name": "Scuro's MoreXP",
+	"description": "Ignore limit for ender dragon xp!",
+	"authors": [
+		"ScuroNeko"
+	],
+	"contact": {
+		"sources": "https://github.com/ScuroNeko/more-xp"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/morexp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [{
+			"value": "ru.scuroneko.morexp.MoreXP",
+			"adapter": "kotlin"
+		}]
+	},
+	"mixins": [
+		"morexp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.23",
+		"cloth-config": "13.0.121"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
