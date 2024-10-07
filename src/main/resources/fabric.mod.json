@@ -23,14 +23,12 @@
 		"morexp.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.7",
-		"minecraft": "~1.20.4",
-		"java": ">=17",
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*",
-		"fabric-language-kotlin": ">=1.9.23",
-		"cloth-config": "13.0.121"
+		"fabric-language-kotlin": "1.12.2+kotlin.2.0.20",
+		"cloth-config": "15.0.140"
 	},
-	"suggests": {
-		"another-mod": "*"
-	}
+	"suggests": {}
 }
