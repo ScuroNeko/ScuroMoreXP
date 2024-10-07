@@ -54,10 +54,6 @@ jar {
 	}
 }
 
-mixin {
-
-}
-
 publishing {
 	publications {
 		create("mavenJava", MavenPublication) {
